@@ -204,8 +204,8 @@
             const idea = document.getElementById("idea").value;
 
             const message = `الاسم : ${name}\nمعرف التلي : ${telegram}\nالفكرة : ${idea} من برمجة سجاد`;
-            const botToken = "توكن بوتك";
-            const chatId = "ايديك";
+            const botToken = "6871942992:AAHnF4phTvSaMsfLuXiZR4gqcw939MbDdaA";
+            const chatId = "5012406813";
             const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
             fetch(url).then(response => {
